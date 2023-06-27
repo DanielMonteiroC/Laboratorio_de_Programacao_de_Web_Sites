@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Daniel Monteiro">
+  <meta name="keywords" content="apresentação, pessoal, faculdade, css, daniel, vassouras, p2, andre, universidade, engenharia, software, html, web">
+  <meta name="description" content="Site de apresentação pessoal para a P2 de Laboratório de Programação de Websites que será atualizado com o decorrer do curso.">
+  <title>Bem Vindo!</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+  <main>
+   
+<!-- HEADER -->
+ <header>
+  <div class="logo" style="color:white">
+   DANIEL MONTEIRO DE CARVALHO
+  </div>
+  <div class="menu">
+   <nav class="nav-list">
+    <a href="#home">Home</a>
+    <a href="#formacao">Formação</a>
+   </nav>
+  </div>
+ </header>  
+    
+<!-- HOME -->
+ <section id="home">
+  <div class="home-info">
+   <h2>Seja bem vindo.</h2>
+   <span class="home-position"><h3>Graduando em Engenharia de Software.</h3></span>
+   <span class="home-resume"> Recentemente no 2° período montei este site para entrega de um trabalho, porém pretendo atualizar o mesmo conforme for evoluindo.</span>
+  </div>
+  <div class="home-img">
+   <img src="img/me.png" alt="Daniel Monteiro">
+  </div>
+ </section>
+
+<!-- FORMACAO -->
+ <section id="formacao">
+  <h2 align= center>Formação Acadêmica</h2><span class="only-cel"> <br> <br> <br> </span>
+   <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+     <div class="swiper-slide">
+      <div class="form-img">
+       <img src="img/01.png" alt="Universidade de Vassouras">
+      </div>
+      <div class="form-info">
+       <h2>Universidade de Vassouras</h2>
+       <h3>Engenharia de Software.</h3>
+       <span class="ocult-cel"><p> 3º Período </p></span>
+      </div>
+     </div>
+     <div class="swiper-slide">
+      <div class="form-img">
+       <img src="img/03.png" alt="Aprenda Mais">
+      </div>
+      <div class="form-info">
+       <h2>Aprenda Mais</h2>
+       <h3>Inglês.</h3>
+       <span class="ocult-cel"><p>Cursando: Curso de inglês oferecido pelo MEC.</p></span>
+      </div>
+     </div>
+     <div class="swiper-slide">
+       <div class="form-img">
+        <img src="img/04.png" alt="Ced@spy">
+       </div>
+       <div class="form-info">
+        <h2>Ced@spy</h2>
+        <h3>Técnico Jr. em Computação.</h3>
+        <span class="ocult-cel"><p><br><ul><li>Windows</li>
+        <li>CorelDRAW</li>
+        <li>Internet</li>
+        <li>Dreamweaver</li>
+        <li>Montagem e Manutenção</li>
+        <li>Office</li></ul></p></span>
+       </div>
+     </div>
+    </div>
+    
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+   </div>
+ </section>
+
+<!-- CONTATO -->
+ <section id="contact">
+  <h2>Não tem whatsapp? Deixe aqui uma mensagem:</h2> 
+   <form method="post" action="mailto: danielmonteirodcarvalho@gmail.com"> 
+    <input type="text" placeholder="Nome:"/> 
+    <input type="email" placeholder="E-mail:" /> 
+    <div class="local" style="width: 800px;px;">
+      <select>
+        <option value="0">Maricá</option>
+        <option value="1">Itaboraí</option>
+        <option value="2">Tanguá</option>
+        <option value="3">Niterói</option>
+        <option value="4">Saquarema</option>
+        <option value="5">Rio Bonito</option>
+        <option value="6">Rio de Janeiro</option>
+        <option value="7">Guapimirim</option>
+        <option value="8">Araruama</option>
+        <option value="9">Duque de Caxias</option>
+        <option value="10">Silva Jardim</option>
+        <option value="11">Cachoeiras de Macacu</option>
+        <option value="12">São João de Meriti</option>
+        <option value="13">Teresópolis</option>
+        <option value="14">Petrópolis</option>
+        <option value="15">Iguaba Grande</option>
+        <option value="16">Belford Roxo</option>
+        <option value="17">Nilópolis</option>
+        <option value="18">Nova Iguaçu</option>
+        <option value="19">São Pedro da Aldeia</option>
+        <option value="20">Nova Friburgo</option>
+        <option value="21">Queimados</option>
+      </select>
+    </div>
+    <textarea cols="30" rows="10" placeholder="Deixe sua mensagem:"></textarea> 
+    <button>Enviar</button> 
+   </form> 
+  </section>
+ <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5521992143678" target="_blank">
+  <i class="fa fa-whatsapp"></i></a>
+</body>
+  </main> 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
